@@ -1,15 +1,17 @@
 .container {
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 .main {
   min-height: 100vh;
+  max-width: 100vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: auto;
 }
 
 .footer {
@@ -113,4 +115,24 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.menubar {
+  list-style-type: none;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.menuitem {
+  float: left;
+  display: inline;
+  padding: 14px 16px;
+}
+
+.menuitem:hover {
+  background-color: #006400;
+}
+
+.section {
+  padding-bottom: 400px;
 }
